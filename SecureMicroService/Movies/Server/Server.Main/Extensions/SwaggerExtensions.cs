@@ -21,8 +21,8 @@ namespace Server.Main.Extensions
 
             services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc("v1", new OpenApiInfo { Title = "Clubeez v1 API", Version = "v1" });
-                options.SwaggerDoc("v2", new OpenApiInfo { Title = "Clubeez v2 API", Version = "v2" });
+                options.SwaggerDoc("v1", new OpenApiInfo { Title = "Identity Server v1 API", Version = "v1" });
+                options.SwaggerDoc("v2", new OpenApiInfo { Title = "Identity Server v2 API", Version = "v2" });
 
                 options.OperationFilter<RemoveVersionFromParameter>();
                 options.DocumentFilter<ReplaceVersionWithExactValueInPath>();

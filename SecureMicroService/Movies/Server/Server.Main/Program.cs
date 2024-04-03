@@ -1,5 +1,6 @@
 using Serilog.Events;
 using Serilog;
+using Server.Library.Context;
 namespace Server.Main
 {
     public class Program
@@ -18,7 +19,11 @@ namespace Server.Main
             try
             {
                 Log.Warning("Starting  host");
-                CreateHostBuilder(args).Build().Run();
+                //CreateHostBuilder(args).Build().Run();
+
+                var host = CreateHostBuilder(args).Build();
+                SeedDatabase(host);
+                host.Run();
             }
             catch (Exception ex)
             {
@@ -32,12 +37,22 @@ namespace Server.Main
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
            Host.CreateDefaultBuilder(args)
-              //.UseSerilog()
+               //.UseSerilog()
                .ConfigureWebHostDefaults(webBuilder =>
                {
                    webBuilder.UseStartup<Startup>();
 
                })
                .UseDefaultServiceProvider(options => options.ValidateScopes = false);
+
+        private static void SeedDatabase(IHost host)
+        {
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var moviesContext = services.GetRequiredService<ApplicationDbContext>();
+                MovieSeeder.SeedAsync(moviesContext);
+            }
+        }
     }
 }
