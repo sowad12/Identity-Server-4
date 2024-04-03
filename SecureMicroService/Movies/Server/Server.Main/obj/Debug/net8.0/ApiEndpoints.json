@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "Server.Main.Controllers.MoviesController",
+    "Method": "CheckSenderDomain",
+    "RelativePath": "api/v{version}/Movies/hello",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "domainName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

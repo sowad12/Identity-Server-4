@@ -1,0 +1,6 @@
+@helu_HostAddress = http://localhost:5062
+
+GET {{helu_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
