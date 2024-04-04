@@ -31,6 +31,7 @@ namespace Server.Library.Context
             base.OnModelCreating(modelBuilder);
         }
 
+        public DbSet<Movie> Movie { get; set; }
         //public DbSet<Human> Human { get; set; }
     }
 }
