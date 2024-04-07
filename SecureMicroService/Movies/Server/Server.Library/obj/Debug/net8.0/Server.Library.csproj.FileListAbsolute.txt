@@ -6,6 +6,7 @@ D:\Identityserver4\SecureMicroService\Movies\Server\Server.Library\obj\Debug\net
 D:\Identityserver4\SecureMicroService\Movies\Server\Server.Library\obj\Debug\net8.0\Server.Library.AssemblyInfoInputs.cache
 D:\Identityserver4\SecureMicroService\Movies\Server\Server.Library\obj\Debug\net8.0\Server.Library.AssemblyInfo.cs
 D:\Identityserver4\SecureMicroService\Movies\Server\Server.Library\obj\Debug\net8.0\Server.Library.csproj.CoreCompileInputs.cache
+D:\Identityserver4\SecureMicroService\Movies\Server\Server.Library\obj\Debug\net8.0\Server.Library.sourcelink.json
 D:\Identityserver4\SecureMicroService\Movies\Server\Server.Library\obj\Debug\net8.0\Server.Library.dll
 D:\Identityserver4\SecureMicroService\Movies\Server\Server.Library\obj\Debug\net8.0\refint\Server.Library.dll
 D:\Identityserver4\SecureMicroService\Movies\Server\Server.Library\obj\Debug\net8.0\Server.Library.pdb
