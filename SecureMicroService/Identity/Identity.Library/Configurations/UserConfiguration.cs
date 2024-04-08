@@ -14,14 +14,14 @@ namespace Identity.Library.Configurations
             {
                 new TestUser{
                     SubjectId = "818727",
-                    Username = "dip",
-                    Password = "dip",
+                    Username = "sowad",
+                    Password = "123",
                     Claims =
                     {
-                        new Claim(JwtClaimTypes.Name, "Dip Sikder"),
-                        new Claim(JwtClaimTypes.GivenName, "Dip"),
-                        new Claim(JwtClaimTypes.FamilyName, "Sikder"),
-                        new Claim(JwtClaimTypes.Email, "dip@email.com"),
+                        new Claim(JwtClaimTypes.Name, "Sowad Islam"),
+                        new Claim(JwtClaimTypes.GivenName, "Sowad"),
+                        new Claim(JwtClaimTypes.FamilyName, "Islam"),
+                        new Claim(JwtClaimTypes.Email, "sowad@gmail.com"),
                         new Claim(JwtClaimTypes.EmailVerified, "true", ClaimValueTypes.Boolean)
                     }
                 },

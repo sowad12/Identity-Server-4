@@ -57,3 +57,8 @@ SecureMicroService/Movies/Server/Server.Library/obj
 SecureMicroService/Movies/Server/Server.Main/bin
 SecureMicroService/Movies/Server/Server.Main/obj
 
+SecureMicroService/Identity/Identity.Library/bin
+SecureMicroService/Identity/Identity.Library/obj
+SecureMicroService/Identity/Identity.Main/bin
+SecureMicroService/Identity/Identity.Main/obj
+
