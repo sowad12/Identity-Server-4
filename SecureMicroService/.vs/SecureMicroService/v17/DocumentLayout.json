@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Identityserver4\\SecureMicroService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{659A13B1-6667-410D-AED3-01755B07F6DC}|Movies\\Server\\Server.Main\\Server.Main.csproj|d:\\identityserver4\\securemicroservice\\movies\\server\\server.main\\utilites\\removeversionfromparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659A13B1-6667-410D-AED3-01755B07F6DC}|Movies\\Server\\Server.Main\\Server.Main.csproj|solutionrelative:movies\\server\\server.main\\utilites\\removeversionfromparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{659A13B1-6667-410D-AED3-01755B07F6DC}|Movies\\Server\\Server.Main\\Server.Main.csproj|d:\\identityserver4\\securemicroservice\\movies\\server\\server.main\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{659A13B1-6667-410D-AED3-01755B07F6DC}|Movies\\Server\\Server.Main\\Server.Main.csproj|solutionrelative:movies\\server\\server.main\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{659A13B1-6667-410D-AED3-01755B07F6DC}|Movies\\Server\\Server.Main\\Server.Main.csproj|d:\\identityserver4\\securemicroservice\\movies\\server\\server.main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{659A13B1-6667-410D-AED3-01755B07F6DC}|Movies\\Server\\Server.Main\\Server.Main.csproj|solutionrelative:movies\\server\\server.main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{659A13B1-6667-410D-AED3-01755B07F6DC}|Movies\\Server\\Server.Main\\Server.Main.csproj|d:\\identityserver4\\securemicroservice\\movies\\server\\server.main\\utilites\\removeversionfromparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{659A13B1-6667-410D-AED3-01755B07F6DC}|Movies\\Server\\Server.Main\\Server.Main.csproj|solutionrelative:movies\\server\\server.main\\utilites\\removeversionfromparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{659A13B1-6667-410D-AED3-01755B07F6DC}|Movies\\Server\\Server.Main\\Server.Main.csproj|d:\\identityserver4\\securemicroservice\\movies\\server\\server.main\\utilites\\replaceversionwithexactvalueinpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,11 +122,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MovieViewModel.cs",
               "DocumentMoniker": "D:\\Identityserver4\\SecureMicroService\\Movies\\Server\\Server.Library\\Model\\ViewModel\\MovieViewModel.cs",
               "RelativeDocumentMoniker": "Movies\\Server\\Server.Library\\Model\\ViewModel\\MovieViewModel.cs",
@@ -139,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MoviesController.cs",
               "DocumentMoniker": "D:\\Identityserver4\\SecureMicroService\\Movies\\Server\\Server.Main\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Movies\\Server\\Server.Main\\Controllers\\MoviesController.cs",
@@ -152,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "RemoveVersionFromParameter.cs",
               "DocumentMoniker": "D:\\Identityserver4\\SecureMicroService\\Movies\\Server\\Server.Main\\Utilites\\RemoveVersionFromParameter.cs",
               "RelativeDocumentMoniker": "Movies\\Server\\Server.Main\\Utilites\\RemoveVersionFromParameter.cs",
@@ -160,7 +160,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Main\\Utilites\\RemoveVersionFromParameter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T15:22:30.545Z"
+              "WhenOpened": "2024-04-02T15:22:30.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -172,11 +173,12 @@
               "RelativeToolTip": "Movies\\Server\\Server.Main\\Extensions\\SwaggerExtensions.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T15:20:13.702Z"
+              "WhenOpened": "2024-04-02T15:20:13.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Identityserver4\\SecureMicroService\\Movies\\Server\\Server.Main\\Program.cs",
               "RelativeDocumentMoniker": "Movies\\Server\\Server.Main\\Program.cs",
@@ -184,7 +186,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Main\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:56:40.245Z"
+              "WhenOpened": "2024-04-02T14:56:40.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -196,11 +199,12 @@
               "RelativeToolTip": "Movies\\Server\\Server.Main\\Startup.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwCAAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:56:26.215Z"
+              "WhenOpened": "2024-04-02T14:56:26.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\Identityserver4\\SecureMicroService\\Movies\\Server\\Server.Library\\Model\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Movies\\Server\\Server.Library\\Model\\Entities\\BaseEntity.cs",
@@ -208,7 +212,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Model\\Entities\\BaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:53:20.382Z"
+              "WhenOpened": "2024-04-02T14:53:20.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -220,7 +225,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Main\\Utilites\\ReplaceVersionWithExactValueInPath.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T15:22:57.07Z"
+              "WhenOpened": "2024-04-02T15:22:57.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -232,7 +238,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Migrations\\20240404145132_MovieTable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T14:51:32.949Z"
+              "WhenOpened": "2024-04-04T14:51:32.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -244,7 +251,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Context\\ApplicationDbContext.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowCEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:48:39.667Z"
+              "WhenOpened": "2024-04-02T14:48:39.667Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -256,7 +264,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Model\\Entities\\SeederStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:53:43.465Z"
+              "WhenOpened": "2024-04-02T14:53:43.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -268,7 +277,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Context\\IDataContext.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:49:39.922Z"
+              "WhenOpened": "2024-04-02T14:49:39.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -280,7 +290,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Context\\DatabaseContextFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:49:29.341Z"
+              "WhenOpened": "2024-04-02T14:49:29.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -292,7 +303,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Main\\Extensions\\DBExtension.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:57:35.989Z"
+              "WhenOpened": "2024-04-02T14:57:35.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -304,7 +316,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Main\\Extensions\\DependencyExtension.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAtwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:57:56.157Z"
+              "WhenOpened": "2024-04-02T14:57:56.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -314,9 +327,10 @@
               "RelativeDocumentMoniker": "Movies\\Server\\Server.Main\\Properties\\launchSettings.json",
               "ToolTip": "D:\\Identityserver4\\SecureMicroService\\Movies\\Server\\Server.Main\\Properties\\launchSettings.json",
               "RelativeToolTip": "Movies\\Server\\Server.Main\\Properties\\launchSettings.json",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAASAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwBcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T15:51:01.333Z"
+              "WhenOpened": "2024-04-02T15:51:01.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -328,7 +342,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Infrastructer\\Implementation\\DapperContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:50:13.905Z"
+              "WhenOpened": "2024-04-02T14:50:13.905Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -340,7 +355,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Infrastructer\\Implementation\\BaseApplicationDbContext.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAowAQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:49:52.429Z"
+              "WhenOpened": "2024-04-02T14:49:52.429Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -352,7 +368,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Main\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T14:59:31.1Z"
+              "WhenOpened": "2024-04-02T14:59:31.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -362,9 +379,10 @@
               "RelativeDocumentMoniker": "Movies\\Server\\Server.Main\\Server.Main.csproj",
               "ToolTip": "D:\\Identityserver4\\SecureMicroService\\Movies\\Server\\Server.Main\\Server.Main.csproj",
               "RelativeToolTip": "Movies\\Server\\Server.Main\\Server.Main.csproj",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAABBwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-02T14:45:31.004Z"
+              "WhenOpened": "2024-04-02T14:45:31.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -376,7 +394,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Model\\Interface\\IEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:53:53.423Z"
+              "WhenOpened": "2024-04-02T14:53:53.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -388,7 +407,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Model\\Interface\\IBaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:53:49.248Z"
+              "WhenOpened": "2024-04-02T14:53:49.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -398,7 +418,6 @@
               "RelativeDocumentMoniker": "Movies\\Server\\Server.Library\\Model\\Entities\\Human.cs",
               "ToolTip": "D:\\Identityserver4\\SecureMicroService\\Movies\\Server\\Server.Library\\Model\\Entities\\Human.cs",
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Model\\Entities\\Human.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T14:53:28.433Z"
             },
@@ -412,7 +431,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Infrastructer\\Options\\DatabaseOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:53:11.181Z"
+              "WhenOpened": "2024-04-02T14:53:11.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -424,7 +444,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Infrastructer\\Options\\AppOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:53:06.099Z"
+              "WhenOpened": "2024-04-02T14:53:06.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -436,7 +457,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Infrastructer\\Interface\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:52:52.487Z"
+              "WhenOpened": "2024-04-02T14:52:52.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -448,7 +470,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Infrastructer\\Interface\\IDapperContext.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAADwvwEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:52:41.217Z"
+              "WhenOpened": "2024-04-02T14:52:41.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -460,7 +483,8 @@
               "RelativeToolTip": "Movies\\Server\\Server.Library\\Infrastructer\\Implementation\\Repository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:51:37.669Z"
+              "WhenOpened": "2024-04-02T14:51:37.669Z",
+              "EditorCaption": ""
             }
           ]
         }
