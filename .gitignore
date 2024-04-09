@@ -47,10 +47,11 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
-
+*.suo
 
 *.txt
 
+obj/
 SecureMicroService/.vs
 SecureMicroService/Movies/Server/Server.Library/bin
 SecureMicroService/Movies/Server/Server.Library/obj
