@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
 
 namespace Server.Main.Extensions
@@ -32,6 +33,15 @@ namespace Server.Main.Extensions
             //services.AddScoped<ISystemManager, SystemManager>();
             //services.AddScoped<IProductManager, ProductManager>();
 
+            services.AddAuthentication("Bearer")
+                    .AddJwtBearer("Bearer", options =>
+                    {
+                        options.Authority = "https://localhost:7002";
+                        options.TokenValidationParameters = new TokenValidationParameters
+                        {
+                            ValidateAudience = false
+                        };
+                    });
             return services;
         }
 
@@ -39,7 +49,7 @@ namespace Server.Main.Extensions
             this IApplicationBuilder app,
             IConfiguration configuration,
             //ILoggerFactory loggerFactory,
-          
+
             IServiceProvider serviceProvider
         )
         {

@@ -9,7 +9,7 @@ using System.Net;
 
 namespace Server.Main.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [ApiController]
     [ApiVersion("1")]
     [Route("api/v{version:apiVersion}/[controller]")]
